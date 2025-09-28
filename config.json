@@ -75,10 +75,10 @@
     "ad_units": {
       "android": {
         "app_id": "ca-app-pub-5135321985725008~5612584328",
-        "banner_home": "ca-app-pub-3940256099942544/6300978111",
+        "banner_home": "ca-app-pub-3940256099942544/9214589741",
         "banner_reader": "ca-app-pub-3940256099942544/6300978111",
         "interstitial_chapter": "ca-app-pub-3940256099942544/1033173712",
-        "app_open": "ca-app-pub-3940256099942544/3419835294",
+        "app_open": "ca-app-pub-3940256099942544/9257395921",
         "native_library": "ca-app-pub-3940256099942544/2247696110",
         "rewarded_premium": "ca-app-pub-3940256099942544/5224354917"
       },
