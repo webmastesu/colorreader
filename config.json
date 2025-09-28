@@ -69,26 +69,74 @@
     }
   },
   "ads_config": {
-    "enabled": false,
+    "enabled": true,
     "test_mode": true,
+    "version": "1.0.0",
+    "ad_units": {
+      "android": {
+        "app_id": "ca-app-pub-5135321985725008~5612584328",
+        "banner_home": "ca-app-pub-3940256099942544/6300978111",
+        "banner_reader": "ca-app-pub-3940256099942544/6300978111",
+        "interstitial_chapter": "ca-app-pub-3940256099942544/1033173712",
+        "app_open": "ca-app-pub-3940256099942544/3419835294",
+        "native_library": "ca-app-pub-3940256099942544/2247696110",
+        "rewarded_premium": "ca-app-pub-3940256099942544/5224354917"
+      },
+      "ios": {
+        "app_id": "ca-app-pub-5135321985725008~5612584328",
+        "banner_home": "ca-app-pub-3940256099942544/2934735716",
+        "banner_reader": "ca-app-pub-3940256099942544/2934735716",
+        "interstitial_chapter": "ca-app-pub-3940256099942544/4411468910",
+        "app_open": "ca-app-pub-3940256099942544/5662855259",
+        "native_library": "ca-app-pub-3940256099942544/3986624511",
+        "rewarded_premium": "ca-app-pub-3940256099942544/1712485313"
+      }
+    },
     "frequency_caps": {
-      "interstitial_min_interval_minutes": 5,
+      "interstitial_min_interval_minutes": 3,
       "banner_refresh_seconds": 60,
-      "max_ads_per_session": 6
+      "app_open_cooldown_hours": 4,
+      "max_ads_per_session": 8,
+      "native_ads_per_page": 1
     },
     "placement_config": {
       "home_banner": {
-        "enabled": false,
-        "position": "bottom"
+        "enabled": true,
+        "position": "bottom",
+        "auto_show": true
       },
       "reader_banner": {
         "enabled": false,
-        "show_after_pages": 10
+        "position": "bottom",
+        "show_after_pages": 5
       },
       "chapter_interstitial": {
-        "enabled": false,
-        "show_after_chapters": 3
+        "enabled": true,
+        "show_after_chapters": 2,
+        "skip_if_premium": true
+      },
+      "library_native": {
+        "enabled": true,
+        "insert_after_items": 3
+      },
+      "app_open": {
+        "enabled": true,
+        "show_on_cold_start": true,
+        "show_on_resume": false
+      },
+      "rewarded_ads": {
+        "enabled": true,
+        "rewards": {
+          "remove_ads_30min": true,
+          "premium_features": true
+        }
       }
+    },
+    "targeting": {
+      "age_rating": "T",
+      "categories": ["reading", "entertainment", "books"],
+      "exclude_sensitive": true,
+      "personalized_ads": false
     }
   }
 }
