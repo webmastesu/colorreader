@@ -22,12 +22,14 @@
     "default": [
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "MY_UA_10"
     ],
     "mobile": [
       "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1",
       "Mozilla/5.0 (Android 14; Mobile; rv:121.0) Gecko/121.0 Firefox/121.0",
-      "Mozilla/5.0 (Linux; Android 14; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
+      "Mozilla/5.0 (Linux; Android 14; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
+      "MY_UA_10"
     ],
     "sites": {
       "google.com": [
@@ -75,7 +77,7 @@
     "ad_units": {
       "android": {
         "app_id": "ca-app-pub-5135321985725008~5612584328",
-        "banner_home": "ca-app-pub-3940256099942544/9214589741",
+        "banner_home": "ca-app-pub-3940256099942544/6300978111",
         "banner_reader": "ca-app-pub-3940256099942544/6300978111",
         "interstitial_chapter": "ca-app-pub-3940256099942544/1033173712",
         "app_open": "ca-app-pub-3940256099942544/9257395921",
@@ -106,7 +108,7 @@
         "auto_show": true
       },
       "reader_banner": {
-        "enabled": true,
+        "enabled": false,
         "position": "bottom",
         "show_after_pages": 5
       },
@@ -122,7 +124,7 @@
       "app_open": {
         "enabled": true,
         "show_on_cold_start": true,
-        "show_on_resume": true
+        "show_on_resume": false
       },
       "rewarded_ads": {
         "enabled": true,
