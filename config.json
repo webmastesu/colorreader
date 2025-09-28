@@ -1,0 +1,94 @@
+{
+  "app_config": {
+    "version": "1.0.0",
+    "force_update": {
+      "enabled": false,
+      "min_version": "1.0.0",
+      "message": "Please update to continue using the app"
+    },
+    "maintenance": {
+      "enabled": false,
+      "message": "App is under maintenance. Please try again later.",
+      "estimated_duration": "30 minutes"
+    },
+    "features": {
+      "user_agent_automation": true,
+      "reader_mode": true,
+      "library_sync": true,
+      "scraping_enabled": true
+    }
+  },
+  "user_agents": {
+    "default": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    ],
+    "mobile": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1",
+      "Mozilla/5.0 (Android 14; Mobile; rv:121.0) Gecko/121.0 Firefox/121.0",
+      "Mozilla/5.0 (Linux; Android 14; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
+    ],
+    "sites": {
+      "google.com": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      ],
+      "toonily.com": [
+        "MY_UA_10"
+      ],
+      "neonwebtoon.com": [
+        "MY_UA_10"
+      ],
+      "mangakakalot.com": [
+        "MY_UA_10"
+      ],
+      "manganato.com": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
+      ],
+      "mangadex.org": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      ],
+      "webtoons.com": [
+        "MY_UA_10"
+      ],
+      "tapas.io": [
+        "MY_UA_10"
+      ],
+      "lezhin.com": [
+        "MY_UA_10"
+      ],
+      "asurascans.com": [
+        "MY_UA_10"
+      ],
+      "reaperscans.com": [
+        "MY_UA_10"
+      ],
+      "flamescans.org": [
+        "MY_UA_10"
+      ]
+    }
+  },
+  "ads_config": {
+    "enabled": false,
+    "test_mode": true,
+    "frequency_caps": {
+      "interstitial_min_interval_minutes": 5,
+      "banner_refresh_seconds": 60,
+      "max_ads_per_session": 6
+    },
+    "placement_config": {
+      "home_banner": {
+        "enabled": false,
+        "position": "bottom"
+      },
+      "reader_banner": {
+        "enabled": false,
+        "show_after_pages": 10
+      },
+      "chapter_interstitial": {
+        "enabled": false,
+        "show_after_chapters": 3
+      }
+    }
+  }
+}
