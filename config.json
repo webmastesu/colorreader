@@ -124,7 +124,7 @@
       "app_open": {
         "enabled": true,
         "show_on_cold_start": true,
-        "show_on_resume": false
+        "show_on_resume": true
       },
       "rewarded_ads": {
         "enabled": true,
