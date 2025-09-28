@@ -106,7 +106,7 @@
         "auto_show": true
       },
       "reader_banner": {
-        "enabled": false,
+        "enabled": true,
         "position": "bottom",
         "show_after_pages": 5
       },
