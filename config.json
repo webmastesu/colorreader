@@ -74,8 +74,8 @@
     }
   },
   "ads_config": {
-    "enabled": true,
-    "test_mode": true,
+    "enabled": false,
+    "test_mode": false,
     "version": "1.0.0",
     "ad_units": {
       "android": {
