@@ -74,8 +74,8 @@
     }
   },
   "ads_config": {
-    "enabled": false,
-    "test_mode": false,
+    "enabled": true,
+    "test_mode": true,
     "version": "1.0.0",
     "ad_units": {
       "android": {
@@ -106,31 +106,31 @@
     },
     "placement_config": {
       "home_banner": {
-        "enabled": false,
+        "enabled": true,
         "position": "bottom",
-        "auto_show": false
+        "auto_show": true
       },
       "reader_banner": {
-        "enabled": false,
+        "enabled": true,
         "position": "bottom",
         "show_after_pages": 5
       },
       "chapter_interstitial": {
-        "enabled": false,
+        "enabled": true,
         "show_after_chapters": 2,
-        "skip_if_premium": false
+        "skip_if_premium": true
       },
       "library_native": {
         "enabled": false,
         "insert_after_items": 3
       },
       "app_open": {
-        "enabled": false,
+        "enabled": true,
         "show_on_cold_start": true,
-        "show_on_resume": false
+        "show_on_resume": true
       },
       "rewarded_ads": {
-        "enabled": false,
+        "enabled": true,
         "rewards": {
           "remove_ads_30min": false,
           "premium_features": false
